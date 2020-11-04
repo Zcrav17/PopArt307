@@ -16,7 +16,7 @@ header {
     background-color: var(--background-color);
 }
 .Logo {
-    box-sizing: border-box;
+    box-sizing: 50%;
     padding: 1px;
     height: 300px;
     width: 40%;
@@ -29,17 +29,23 @@ li {
     letter-spacing: 8px;
 
 }
+
+.menu-board-column{
+    columns: 2;
+}
+
+
 .menu2 {
     box-sizing: border-box;
     padding: 1px;
-    height: 800px;
+    height: 100px;
     width: 100%;
 
 }
 .menu1 {
     box-sizing: border-box;
     padding: 1px;
-    height: 800px;
+    height: 100px;
     width: 100%;
 
 }
