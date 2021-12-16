@@ -1,0 +1,29 @@
+#carousel {
+    width: 80%;
+    height: 200px;
+    background-color: rgb(255, 0, 0);
+    overflow: auto;
+    white-space: nowrap;
+}
+
+
+#flexCarousel{
+    display: flex;
+    justify-content: center;
+}
+
+#carousel .slide {
+    display: inline-block;
+}
+
+.companyName {
+    font-size: 100px;
+    color: rgb(18, 204, 195);
+    display: flex;
+    justify-content: center;
+};
+
+.Contact {
+    font-size: 12px;
+    counter: red;
+}
